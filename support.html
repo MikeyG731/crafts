@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Handmade Pricing</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2a7de1;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2a7de1;
+            margin-top: 30px;
+        }
+        p {
+            margin: 15px 0;
+        }
+        .card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .contact-form {
+            margin-top: 30px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 14px;
+        }
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        button {
+            background-color: #2a7de1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #1e65c1;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Handmade Pricing Support</h1>
+        
+        <div class="card">
+            <h2>Quick Support</h2>
+            <p>Need help with the Handmade Pricing app? We're here to assist you!</p>
+            <p><strong>Email:</strong> <a href="mailto:[Your Email Address]">[Your Email Address]</a></p>
+            <p><strong>Support Hours:</strong> Monday to Friday, 9 AM to 5 PM [Your Time Zone]</p>
+            <p>We typically respond to all inquiries within 24-48 hours.</p>
+        </div>
+        
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <p class="faq-question">How do I calculate a price for my handmade item?</p>
+            <p>In the Products tab, select your product and navigate to the Price Calculator section. Enter your material costs, hours spent, and desired profit margin. The app will automatically calculate a recommended price for your item.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">How do I track my sales?</p>
+            <p>Use the Transactions tab to record all sales. After calculating a price, you can directly save it as a transaction. All your transactions will appear in the Reports tab with detailed analytics.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">Can I backup my data?</p>
+            <p>The app uses your device's storage and iCloud (if enabled) to manage data. We recommend enabling iCloud in your device settings to ensure your data syncs across devices and is backed up.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">How do I set my default hourly rate?</p>
+            <p>Go to the Settings tab and adjust the "Default Hourly Rate" value. This rate will be used as the default for all new price calculations.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">How do I view reports of my sales?</p>
+            <p>Navigate to the Reports tab to see comprehensive analytics of your sales, including revenue by product type, time-based trends, and transaction details. You can filter by date range and product type.</p>
+        </div>
+        
+        <h2>Contact Us</h2>
+        <p>If you couldn't find an answer to your question, please fill out the form below and we'll get back to you as soon as possible.</p>
+        
+        <form class="contact-form" action="mailto:[Your Email Address]" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject">
+                    <option value="question">General Question</option>
+                    <option value="bug">Bug Report</option>
+                    <option value="feature">Feature Request</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html> 
